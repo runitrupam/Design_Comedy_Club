@@ -1,7 +1,10 @@
-LLD solution of 
-Problem Statement : 
-Design a Comedy Cafe , that hosts Events and brings in Stand up Comedian .
+ 
+> Problem Statement : 
+```
+Design a LLD class diagram of a Comedy Cafe , that hosts Events and brings in Stand up Comedian .
 Send Mails to Users to notify about the Event and Jokes . 
+Keep tack of the popularity of the Stand up Comedian based on the clicks by the Users.
+```
 <!-- ROADMAP -->
 
 Soution : 
