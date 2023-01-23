@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T16:00:20.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xn8pDui7m6cdEt_JG1No" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T18:05:03.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Of7udEYuE_z6p17i7OUE" version="20.8.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -56,10 +56,10 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--23" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="156" width="160" height="6" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="Validate()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="Validate() : bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="162" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--25" value="totalCapacity()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--25" value="totalCapacity() : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="188" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--26" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--17" edge="1">
@@ -119,6 +119,9 @@
         <mxCell id="TPlCCfwan0xk1k_wp_Np-178" value="SendMail_to_users() : null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TPlCCfwan0xk1k_wp_Np-108" vertex="1">
           <mxGeometry y="216" width="170" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-3" value="Append_users() : null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TPlCCfwan0xk1k_wp_Np-108">
+          <mxGeometry y="242" width="170" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Georgia;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TPlCCfwan0xk1k_wp_Np-111" target="zkfFHV4jXpPFQw0GAbJ--2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -167,7 +170,7 @@
           <mxGeometry y="266" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-150" value="Comedians" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="270" y="410" width="270" height="236" as="geometry">
+          <mxGeometry x="270" y="410" width="270" height="336" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -180,20 +183,29 @@
         <mxCell id="TPlCCfwan0xk1k_wp_Np-153" value="Phone Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
           <mxGeometry y="78" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-155" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Email Address : email&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Georgia;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Users_liked_in_the_past_month : List&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Georgia;" vertex="1" parent="TPlCCfwan0xk1k_wp_Np-150">
           <mxGeometry y="104" width="270" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Popularity : int&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Georgia;" vertex="1" parent="TPlCCfwan0xk1k_wp_Np-150">
+          <mxGeometry y="144" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-155" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Email Address : email&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Georgia;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
+          <mxGeometry y="184" width="270" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-156" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
-          <mxGeometry y="144" width="270" height="8" as="geometry" />
+          <mxGeometry y="224" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-157" value="getAllEvents : Events()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
-          <mxGeometry y="152" width="270" height="26" as="geometry" />
+          <mxGeometry y="232" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-0" value="SendMail_to_cafe() : null" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TPlCCfwan0xk1k_wp_Np-150">
+          <mxGeometry y="258" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-158" value="getShowDetails : EVENTS()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
-          <mxGeometry y="178" width="270" height="26" as="geometry" />
+          <mxGeometry y="284" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-177" value="getComedianDetails : JSON" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TPlCCfwan0xk1k_wp_Np-150" vertex="1">
-          <mxGeometry y="204" width="270" height="26" as="geometry" />
+          <mxGeometry y="310" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-163" value="0..*" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=16;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" connectable="0" vertex="1">
           <mxGeometry x="730" y="500" as="geometry" />
@@ -357,30 +369,30 @@
           <mxGeometry x="750" y="335" width="50" height="15" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-179" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="826" y="1090" width="324" height="220" as="geometry" />
+          <mxGeometry x="820" y="1080" width="260" height="230" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-115" value="User" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry width="324" height="220" as="geometry">
+          <mxGeometry width="260" height="230.00000000000003" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-116" value="Name : string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="34.87804878048781" width="324" height="34.87804878048781" as="geometry" />
+          <mxGeometry y="36.463414634146346" width="260" height="36.463414634146346" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-117" value="Phone Number : string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="69.75609756097562" width="324" height="34.87804878048781" as="geometry" />
+          <mxGeometry y="72.92682926829269" width="260" height="36.463414634146346" as="geometry" />
         </mxCell>
         <mxCell id="41kQ8d5mnM5o8ySOcaNj-13" value="login() : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="104.63414634146342" width="324" height="34.87804878048781" as="geometry" />
+          <mxGeometry y="109.39024390243905" width="260" height="36.463414634146346" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-118" value="Email : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Georgia;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="139.51219512195124" width="324" height="34.87804878048781" as="geometry" />
+          <mxGeometry y="145.85365853658539" width="260" height="36.463414634146346" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-119" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="174.39024390243904" width="324" height="10.731707317073171" as="geometry" />
+          <mxGeometry y="182.31707317073176" width="260" height="11.219512195121952" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-122" value="clickonComedian() : send_mail(CafeEmailId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-179" vertex="1">
-          <mxGeometry y="185.12195121951223" width="324" height="34.87804878048781" as="geometry" />
+          <mxGeometry y="193.5365853658537" width="260" height="36.463414634146346" as="geometry" />
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-181" value="0..1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=14;fontStyle=1;fontFamily=Georgia;container=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" connectable="0" vertex="1">
           <mxGeometry x="546" y="1220" as="geometry" />
@@ -417,47 +429,12 @@
         <mxCell id="TPlCCfwan0xk1k_wp_Np-84" value="extension : str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;container=0;" parent="TPlCCfwan0xk1k_wp_Np-185" vertex="1">
           <mxGeometry y="156" width="153" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-187" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="170" y="1330" width="190" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-50" value="MailBox" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" width="163" height="200" as="geometry">
-            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-64" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" connectable="0" vertex="1">
-          <mxGeometry y="73" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-97" value="0..*" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=14;fontStyle=1;fontFamily=Georgia;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" connectable="0" vertex="1">
-          <mxGeometry x="190" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-51" value="id : str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="26" width="163" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-58" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="52" width="163" height="6" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-59" value="DeleteAllMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="58" width="163" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-60" value="CountAllMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="84" width="163" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-61" value="CountReadMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="110" width="163" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-62" value="CountUnReadMessages()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="136" width="163" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TPlCCfwan0xk1k_wp_Np-101" value="Send_mail(Email_id) : bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="TPlCCfwan0xk1k_wp_Np-187" vertex="1">
-          <mxGeometry x="7" y="162" width="163" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-188" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Georgia;fontSize=16;exitX=-0.019;exitY=0.861;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TPlCCfwan0xk1k_wp_Np-118" target="TPlCCfwan0xk1k_wp_Np-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="1370" as="sourcePoint" />
             <mxPoint x="540" y="1320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="1221" />
+              <mxPoint x="760" y="1260" />
               <mxPoint x="760" y="1505" />
             </Array>
           </mxGeometry>
@@ -473,6 +450,56 @@
         </mxCell>
         <mxCell id="TPlCCfwan0xk1k_wp_Np-193" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Georgia;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o_kxPmsI3BP2sSxDFneQ-0" target="TPlCCfwan0xk1k_wp_Np-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="681" />
+              <mxPoint x="10" y="1110" />
+              <mxPoint x="10" y="1427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-6" value="0..1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=14;fontStyle=1;fontFamily=Georgia;container=0;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-7" value="0..1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=14;fontStyle=1;fontFamily=Georgia;container=0;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1233" as="geometry">
+            <mxPoint x="-55" y="224" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_kxPmsI3BP2sSxDFneQ-8" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="177" y="1330" width="183" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-50" value="MailBox" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry width="163" height="200" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-97" value="0..*" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=14;fontStyle=1;fontFamily=Georgia;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" connectable="0" vertex="1">
+          <mxGeometry x="183" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-51" value="id : str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="26" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-58" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="52" width="163" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-59" value="DeleteAllMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="58" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-60" value="CountAllMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="84" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-61" value="CountReadMessages()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="110" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-62" value="CountUnReadMessages()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="136" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TPlCCfwan0xk1k_wp_Np-101" value="Send_mail(Email_id) : bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;" parent="o_kxPmsI3BP2sSxDFneQ-8" vertex="1">
+          <mxGeometry y="162" width="163" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
