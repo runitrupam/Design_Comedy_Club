@@ -1,0 +1,9 @@
+The Comedy Club
+There is a comedy cafe in town. Every day 1 Lac users get an email which it sends automatically, the email has buttons with some comedian's names. We have to detect when they open the email, and which comedian they click on. We have 100+ comedians in our registry and every day we have to send TOP 20 and RANDOM 5 comedians based on the previous data of popularity of each one.
+Popularity gets updated based on the clicks the comedian gets cumulatively. The comedians selected daily should also get a weekly update on how their popularity score is doing. To this update email, if a comedian responds with jokes, our system should extract the Jokes from the comedian's replies and send those jokes to the people who have clicked-on this comedian in last month and made this comedian popular.
+
+Design a system using any technology to automate this requirement of the comedy club in such a way that if the club opens 100 branches, 
+it should be running a same system,
+1. use draw.io to describe the HLD and LLD of the system.
+2. Comment on usage of chatbots(telegram/WhatsApp/any) in the same problem statement, do your research and tell us how you would build one.
+3. Suggest more ways to solve the underlying business problem with your assumptions and alternative technologies.
