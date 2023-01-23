@@ -30,7 +30,7 @@ Capacity of the cafe .
 
 >Comedians
 ```
-Comedians class , contains information about the comedians . 
+Comedians class , contains information about the comedians like Name , Email , Popularity 
 You can get all the events and there schedules from here . 
 ```
 
@@ -79,4 +79,14 @@ Send emails
 
 
 <!-- ROADMAP -->
+## Roadmap
+
+- [x] Cafe gets top 20 and 5 Random Comedians based on their popularity .
+- [X] Cafe gets the Event information about these Comedians. 
+- [x] Send info to the message Queue . Message Queue sends the mail to the users with the help of mailBox . 
+- [X] User get the mail . He/She clicks on the Comedians . A response is sent to the MailBox . MailBox then sends the resonse to the Cafe.
+- [X] Cafe updates the popularity of respective Comedians.
+- [X] Comedian sends the joke to the Cafe. Cafe Extracts the joke and sends it to the USers who clicked on the resp. profile of comedian .
+- [X] Cafe handles the branches information and Events information. 
+
 
