@@ -20,7 +20,23 @@ Keep tack of the popularity of the Stand up Comedian based on the clicks by the 
 - [X] Comedian sends the joke to the Cafe. Cafe Extracts the joke and sends it to the USers who clicked on the resp. profile of comedian .
 - [X] Cafe handles the branches information and Events information. 
 
-
+> Our Comedy Cafe System, should meet the following requirements:
+###Functional Requirements:
+```
+1. Our Comedy Cafe System should send mails to 1 Lac users everyday , the email has buttons with some comedian's names.
+2. Mail contains  TOP 20 and RANDOM 5 comedians based on the previous data of popularity of each one.
+3. Detect when they open the email,
+4. User clcks on Comedian they click on , update the  popularity of the comedian
+5. Comedy Cafe System will send mail to the respective Comedians  with their popularity . 
+6. comedian's replies with jokes to the  Cafe System .
+7. Extract jokes and send those jokes to the people who have clicked-on this comedian in last month and made this comedian popular.
+```
+### Non-Functional Requirements:
+- [x] The system would need to be highly concurrent , as the popularity is updated.
+- [x] 1 Lac users everyday .
+- [x] Send mails async.
+- [x] Store info of the events .
+- [x] New branch keep on opening daily.
 
 >APIs Needed 
 ```
@@ -30,8 +46,9 @@ get_random_comedians(count = 5) --> 5RandomComedians:list
 sendMail_To_ListOfUsers(user_list, top25comedians + 5RandomComedians )
 
 extract_JokefromEmail(contect) --> joke : str 
-get_liked_
-sendJoke_to_users
+get_past_month_users(comedian_id) --> user_list : list
+get_comedian_popularity()
+sendJoke_to_users(user_list , joke)
 
 GetListOfBranches()
 GetListOfEvents()
@@ -45,11 +62,11 @@ GetAvailableSeats(eventid, locationid, showtimeid)
 
 ```
 This Comedy_Cafe will do many things like
-[X] Sending mails to users
-[X] Track of Branches , Comedians , Events
-[X] All events inforamtion
-[X] Sending mails to users
-[X] Sending mails to users
+- [x] Sending mails to users
+- [x] Track of Branches , Comedians , Events
+- [x] All events inforamtion
+- [x] Sending mails to users
+- [x] Sending mails to users
 
 > load balancing.
 There will be multiple app servers for load balancing . A Consistent hashing will be used for load balancing. 
@@ -134,7 +151,7 @@ FK = Foreign Kay
   name
   email
   ph_no
-  popularity
+  popularity : int 
   
  4.Users (Customers)
   user_id : PK
